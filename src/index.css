@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  :root {
+    /* Light theme colors */
+    --bg-light: linear-gradient(to right, #f5f3ff, #e9d8fd);
+    --text-light: #000000;
+    --card-light: #ffffff;
+    --primary-light: #7928ca;
+    
+    /* Dark theme colors */
+    --bg-dark: linear-gradient(to right, #1a1a2e, #16213e);
+    --text-dark: #ffffff;
+    --card-dark: #242424;
+    --primary-dark: #a855f7;
+  }
+
+  [data-theme='dark'] {
+    --background: var(--bg-dark);
+    --text-color: var(--text-dark);
+    --card-bg: var(--card-dark);
+    --primary: var(--primary-dark);
+  }
+
+  [data-theme='light'] {
+    --background: var(--bg-light);
+    --text-color: var(--text-light);
+    --card-bg: var(--card-light);
+    --primary: var(--primary-light);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-light);
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-dark);
+  }
+  
+  .app {
+    max-width: 100vw;
+    position: relative;
+  }
+
+  .section {
+    background: var(--background);
+    color: var(--text-color);
+  }
+
+  .card {
+    background: var(--card-bg);
+  }
+
+  .button {
+    background: var(--primary);
+  }
+
+  .section-title, .skill-title, .projects-title, .home-heading h1, .home-heading h2 {
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .section-title:hover, .skill-title:hover, .projects-title:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, var(--secondary), var(--primary));
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  .home-heading h1:hover, .home-heading h2:hover {
+    transform: scale(1.05);
+  }

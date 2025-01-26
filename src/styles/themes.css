@@ -1,0 +1,39 @@
+:root {
+    /* Light Theme */
+    --bg-light: linear-gradient(to right, #f5f3ff, #e9d8fd);
+    --text-light: #000000;
+    --card-bg-light: #ffffff;
+    --primary-light: #7928ca;
+    --secondary-light: #a855f7;
+    
+    /* Dark Theme */
+
+    --bg-dark: linear-gradient(to right, #1a1a2e, #16213e);
+    --text-dark: #ffffff;
+    --card-bg-dark: #242424;
+    --primary-dark: #a855f7;
+    --secondary-dark: #7928ca;
+  }
+  
+  [data-theme='light'] {
+    --background: var(--bg-light);
+    --text-color: var(--text-light);
+    --card-bg: var(--card-bg-light);
+    --primary: var(--primary-light);
+    --secondary: var(--secondary-light);
+  }
+  
+  [data-theme='dark'] {
+    --background: var(--bg-dark);
+    --text-color: var(--text-dark);
+    --card-bg: var(--card-bg-dark);
+    --primary: var(--primary-dark);
+    --secondary: var(--secondary-dark);
+  }
+  
+  .app {
+    background: var(--background);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+  }
+  

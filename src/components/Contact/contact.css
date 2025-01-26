@@ -1,0 +1,140 @@
+.contact-section {
+  background: var(--background);
+  padding: 80px 0;
+  transition: all 0.3s ease;
+}
+
+.contact-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-header {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.section-title:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, var(--secondary), var(--primary));
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.section-subtitle {
+  color: var(--text-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background: var(--card-bg);
+  border-radius: 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 15px 30px rgba(121, 40, 202, 0.3);
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.input-wrapper {
+  margin-bottom: 20px;
+}
+
+.form-input, .form-textarea {
+  width: 100%;
+  padding: 12px;
+  background: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid var(--primary);
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-input.focused, .form-textarea.focused {
+  border-color: #7928ca;
+  outline: none;
+}
+
+.form-textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.submit-btn {
+  padding: 12px 30px;
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+  background: #a855f7;
+  transform: translateY(-3px);
+}
+
+.submit-btn.loading {
+  background-color: #e9d8fd;
+  cursor: not-allowed;
+}
+
+.submit-btn.success {
+  background-color: #7928ca;
+}
+
+.submit-btn.error {
+  background-color: #dc3545;
+}
+
+.bottom-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 40px;
+}
+
+.bottom-icon-wrapper {
+  display: inline-block;
+}
+
+.bottom-icon {
+  font-size: 24px;
+  color: var(--text-color);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-icon:hover {
+  color: var(--primary);
+  transform: translateY(-5px);
+}
+
+.input-row {
+  margin-bottom: 20px;
+}

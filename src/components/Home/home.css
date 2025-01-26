@@ -1,0 +1,137 @@
+.home-container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--background);
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 50px;
+  transition: all 0.3s ease;
+  padding: 40px;
+}
+
+.home-content {
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin-right: auto;
+}
+
+.home-heading h1 {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+  color: var(--text-color);
+  font-weight: bold;
+  animation: bounce 1s ease infinite;
+  transition: color 0.3s ease;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.home-heading h1 span {
+  color: #7928ca;
+  font-weight: bold;
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.home-heading h2 {
+  font-size: 2.5rem;
+  color: var(--primary);
+  margin-bottom: 20px;
+  font-weight: bold;
+  animation: fadeInUp 1.2s ease;
+  transition: color 0.3s ease;
+}
+
+@keyframes fadeInUp {
+  from { transform: translateY(40px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.home-heading p {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  margin-bottom: 30px;
+  font-weight: bold;
+  animation: slideInLeft 1.5s ease;
+  transition: color 0.3s ease;
+}
+
+@keyframes slideInLeft {
+  from { transform: translateX(-50px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.home-buttons {
+  margin-top: 20px;
+}
+
+.home-buttons .btn{
+  background-color: var(--primary);
+  border: none;
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 8px 20px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.home-buttons .btn:hover {
+  background-color: var(--secondary);
+  transform: scale(1.02);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.subtitle-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  order: 2;
+}
+
+.profile-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .home-heading h1 {
+      font-size: 2.5rem;
+  }
+    
+  .home-heading h2 {
+      font-size: 1.8rem;
+  }
+
+  .home-image {
+    max-width: 200px;
+  }
+
+  .profile-image {
+    max-width: 250px;
+  }
+}
