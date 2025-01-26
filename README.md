@@ -3,7 +3,7 @@
 
 This portfolio highlights my journey as a web developer, featuring:  
 - **About Me**: My background, education, and skills.  
-- **Projects**: Detailed descriptions and live demos of projects like a project management tool, mentorship tracker, and restaurant management system.  
+- **Projects**: Detailed descriptions and live demos of projects like a Hotel Booking web application, Restaurant Management etc,.  
 - **Skills**: Proficiency in React, responsive design, and modern web development.  
 - **Contact**: A seamless contact form powered by EmailJS to connect with me for opportunities or collaborations.  
 
