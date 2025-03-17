@@ -8,7 +8,7 @@ const Home = () => {
   const { isDarkMode } = useTheme();
 
   const handleResumeClick = () => {
-    window.open('/assets/Resume.pdf', '_blank');
+    window.open('/assets/Dhana Balan Resume.pdf', '_blank');
   };
 
   return (
