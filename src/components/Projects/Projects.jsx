@@ -59,7 +59,7 @@ const Projects = () => {
       description: "Created a restaurant management web application for efficient table reservations, menu handling, and order tracking.",
       imageUrl: "/assets/images/image 6.png",
       techStack: ["HTML","CSS","JavaScript","Bootstrap","React", "Node.js","Express.js","JWT", "MongoDB", "Socket.io"],
-      liveLink: "voluble-cendol-68fbbc.netlify.app",
+      liveLink: "https://voluble-cendol-68fbbc.netlify.app/",
       codeLink: "https://github.com/DhanaBalan2001/Restaurant-Management-Frontend",
       category: "fullstack"
     },
@@ -68,7 +68,7 @@ const Projects = () => {
       description: "A modern React-based frontend for a Blog platform that enables users to connect, share content, and interact with each other.",
       imageUrl: "/assets/images/image 7.jpg",
       techStack: ["HTML","CSS","JavaScript","Bootstrap","React", "Node.js","Express.js","JWT", "MongoDB"],
-      liveLink: "voluble-cendol-68fbbc.netlify.app/",
+      liveLink: "https://stellular-marzipan-bb6b3d.netlify.app/",
       codeLink: "https://github.com/DhanaBalan2001/Restaurant-Management-Frontend",
       category: "fullstack"
     },
@@ -77,7 +77,7 @@ const Projects = () => {
       description: "Developed a Financial Management System using MERN stack for expense tracking, budgeting, and financial analytics.",
       imageUrl: "/assets/images/image 8.png",
       techStack: ["HTML","CSS","JavaScript","Bootstrap","React", "Node.js","Express.js","JWT", "MongoDB"],
-      liveLink: "spectacular-cannoli-29ddb1.netlify.app/",
+      liveLink: "https://spectacular-cannoli-29ddb1.netlify.app/",
       codeLink: "https://github.com/DhanaBalan2001/Expense-Tracker-Frontend",
       category: "fullstack"
     }
