@@ -33,7 +33,7 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: <FaEnvelope />,
-      link: 'mailto:dana7010276463@gmail.com',
+      link: 'mailto:dhanabalank22@gmail.com',
       animation: { opacity: 1, x: 0 }
     },
     {
